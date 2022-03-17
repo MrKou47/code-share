@@ -16,6 +16,18 @@ ALL-IN-ONE code share extension. Inspired by Github code share link.
 2. `cmd+shift+p`, enter `CodeShare: Generate link`. And then the link will be copied.
 3. Open your brower, paste on the address bar.
 
+### Vscode keyboard shortcuts config
+
+I usually use `cmd+k g` to call _code-share_.
+
+**vscode keybindings.json**
+```json
+{
+  "key": "cmd+k g",
+  "command": "code-share.genLink"
+}
+```
+
 ## Requirements
 
 None.
