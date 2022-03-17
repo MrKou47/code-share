@@ -1,6 +1,6 @@
 # code-share
 
-ALL-IN-ONE code share extension.Inspired by Github code share link.
+ALL-IN-ONE code share extension. Inspired by Github code share link.
 
 ## Features
 
@@ -13,14 +13,15 @@ ALL-IN-ONE code share extension.Inspired by Github code share link.
 ### Generate link with line number
 
 1. Select code in your editor.
-2. `cmd+shift+p`,enter `CodeShare: Generate link`.And then the link will be copied.
-3. Open your brower,paste on the address bar.
+2. `cmd+shift+p`, enter `CodeShare: Generate link`. And then the link will be copied.
+3. Open your brower, paste on the address bar.
 
 ## Requirements
 
 None.
 
 ## Known Issues
+https://github.com/MrKou47/code-share/issues
 
 ## Release Notes
 
