@@ -1,4 +1,4 @@
-# code-share README
+# code-share
 
 ALL-IN-ONE code share extension.Inspired by Github code share link.
 
