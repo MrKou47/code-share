@@ -12,7 +12,7 @@ ALL-IN-ONE code share extension. Inspired by Github code share link.
 
 ### Generate link with line number
 
-1. Select code in your editor.
+1. Select code in your editor. You can select single line code or a range of code
 2. `cmd+shift+p`, enter `CodeShare: Generate link`. And then the link will be copied.
 3. Open your brower, paste on the address bar.
 
