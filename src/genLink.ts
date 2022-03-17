@@ -61,13 +61,11 @@ async function genLink() {
 
   const lineNumber = genLineNumber(
     window.activeTextEditor!.selection,
-    remoteUrl.indexOf('github') > -1 // github link use `#L{startLineNumber}-L{endLineNumber}` form
+    remoteUrl.indexOf('github') > -1 // github link use `#L{startLineNumber}-L{endLineNumber}`
   );
 
   // use https protocol as default
   let link = `https://${remoteUrl}/blob/${headPosition}/${filePath}${lineNumber}`;
-
-  // const fastLink = 'https://alex.alipay.com#' + `https://${remoteUrl}/blob/${headPosition}/${filePath}${lineNumber}`;
 
   await env.clipboard.writeText(link);
 
