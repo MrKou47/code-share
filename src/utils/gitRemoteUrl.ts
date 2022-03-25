@@ -31,7 +31,6 @@ function gitRemoteUrl(content: string) {
   const config = parseIni(content);
   const url = config['remote "origin"']?.url;
   const parsedUrl = GitUrlParse(url);
-  console.log(parsedUrl);
   return `${parsedUrl.resource}/${parsedUrl.full_name}`;
 }
 
