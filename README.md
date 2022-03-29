@@ -44,3 +44,7 @@ First release
 ### 0.0.2
 
 - Add right click menu
+
+### 0.0.6
+
+- Add BitBucket support
