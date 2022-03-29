@@ -3,7 +3,7 @@
     "displayName": "code-share",
     "description": "Generate repositry link with line number.",
     "publisher": "mrkou47",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "icon": "images/logo.png",
     "repository": {
         "type": "git",
@@ -20,7 +20,8 @@
     ],
     "main": "./out/extension.js",
     "contributes": {
-        "commands": [{
+        "commands": [
+            {
                 "command": "code-share.genShareCode",
                 "title": "CodeShare: Generate share code"
             },
@@ -30,10 +31,12 @@
             }
         ],
         "menus": {
-            "editor/context": [{
-                "command": "code-share.genLink",
-                "group": "navigation"
-            }]
+            "editor/context": [
+                {
+                    "command": "code-share.genLink",
+                    "group": "navigation"
+                }
+            ]
         }
     },
     "scripts": {
